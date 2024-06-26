@@ -11,7 +11,7 @@ int rekursif(int n) {
         return rekursif(n - 1) + rekursif(n - 2);
 }
 
-int dinamic(int n) {
+int dinamic(int n) {-
     vector<int> angka(n + 1);
     angka[0] = 0;
     ankga[1] = 1;
